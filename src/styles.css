@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+.background {
+    height: 100%;
+    background-image: url("./assets/black_mamba.png");
+    background-color: #181818;
+    background-attachment: fixed;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.mat-divider {
+    color: #303030
+}

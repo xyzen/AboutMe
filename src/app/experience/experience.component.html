@@ -1,0 +1,42 @@
+<div fxLayout="column" fxLayoutAlign="start center" style="background-color: #181818; min-height: 480px">
+  <div style="max-width: 674px; padding: 0px; padding-top: 32px; padding-bottom: 32px">
+    <h2>EXPERIENCE</h2>
+    <mat-divider></mat-divider>
+    <div style="padding: 16px; max-width: 642px">
+      <div [@xExpand]="state1 ? 'in' : 'outRight'" (@xExpand.done)="closeAll($event)" (@xExpand.start)="closeAll($event)" [hidden]="state" class="prllx-container" 
+          style="position: relative; padding: 16px; padding-left: 24px">
+        <li>
+          Developing this website from scratch with Angular CLI and VSCode
+        </li>
+      </div>
+      <br>
+      <div [@xExpand]="state2 ? 'in' : 'outRight'" [hidden]="state" class="prllx-container" 
+          style="position: relative; padding: 16px; padding-left: 24px">
+        <li>
+          Writing a set of modules for simple game design in Python with Tkinter
+        </li>
+      </div>
+      <br>
+      <div [@xExpand]="state3 ? 'in' : 'outRight'" [hidden]="state" class="prllx-container" 
+          style="position: relative; padding: 16px; padding-left: 24px">
+        <li>
+          Designing a mobile productivity applet for counting currency with React Native
+        </li>
+      </div>
+      <br>
+      <div [@xExpand]="state4 ? 'in' : 'outRight'" [hidden]="state" class="prllx-container" 
+          style="position: relative; padding: 16px; padding-left: 24px">
+        <li>
+          Collaborating with others on projects in C++, Java, and SQL
+        </li>
+      </div>
+      <br>
+      <div [@xExpand]="state5 ? 'in' : 'outRight'" [hidden]="state" class="prllx-container" 
+          style="position: relative; padding: 16px; padding-left: 24px">
+        <li>
+          Deploying to and serving site from Raspbian with Apache2, ssh, and git
+        </li>
+      </div>
+    </div>
+  </div>
+</div>

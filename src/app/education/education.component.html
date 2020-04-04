@@ -1,0 +1,35 @@
+<div fxLayout="column" fxLayoutAlign="center center">
+  <div style="max-width: 610px; padding: 32px; white-space: nowrap">
+    <h3>EDUCATION</h3>
+    <mat-divider></mat-divider>
+    <ul class="connected" style="max-width: 360px" fxLayout="column"
+        fxLayoutAlign="center center" fxLayoutGap="16px">
+      <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="8px">
+        <span fxLayout="column" fxLayoutGap="8px" class='list-element'
+            [@xExpand]="state1 ? 'in' : 'outLeft'">
+          <h4>University<br>of Missouri-<br>Kansas City</h4>
+          2016-2020<br>
+        </span>
+        <li class="connect"></li>
+        <span fxLayout="column" fxLayoutGap="8px" class='list-element'
+            [@xExpand]="state1 ? 'in' : 'outRight'">
+          <h4>Bachelor's<br>of Science</h4>
+          Computer Science<br>(Soft. Eng.)<br>
+        </span>
+      </div>
+      <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="8px">
+        <span fxLayout="column" fxLayoutGap="8px" class='list-element'
+            [@xExpand]="state2 ? 'in' : 'outLeft'">
+          <h4>Truman<br>High School</h4>
+          2004-2008<br>
+         </span>
+        <li></li>
+        <span fxLayout="column" fxLayoutGap="8px" class='list-element'
+            [@xExpand]="state2 ? 'in' : 'outRight'">
+          <h4>High School<br>Diploma</h4>
+          General Studies<br>
+        </span>
+      </div>
+    </ul>
+  </div>
+</div>

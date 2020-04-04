@@ -1,0 +1,11 @@
+.prllx-container {
+  /* The image used */
+  background-image: url("../../assets/black_mamba.png");
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  
+  text-align: left;
+}
